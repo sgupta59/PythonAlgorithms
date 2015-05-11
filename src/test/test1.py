@@ -29,3 +29,6 @@ print (dict1)
 pairs = [( 'ga' , 'Irish' ), ( 'de' ,'German' )]
 dict2 = (pairs)
 print (dict2)
+
+# print
+print("abc")
