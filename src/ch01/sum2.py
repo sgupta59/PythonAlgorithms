@@ -24,3 +24,12 @@ def sum(values):
 	for v in values:
 		total = total + v
 	return total
+
+
+def sum1(*value):
+	count=0
+	for val in value:
+		count += val
+	return count
+
+print(sum1( 1,2,3,4 ))
