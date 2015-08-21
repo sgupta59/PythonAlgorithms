@@ -7,6 +7,13 @@ Created on May 6, 2015
 if __name__ == '__main__':
     pass
 
+import humansize
+
+SUFFIXES = {1000: ['KB', 'MB', 'GB', 'TB', 'PB', 'EB', 'ZB', 'YB'],  
+            1024: ['KiB', 'MiB', 'GiB', 'TiB', 'PiB', 'EiB', 'ZiB', 'YiB']}
+si_suffixes = humansize.SUFFIXES[1000]
+print('1000{0[0]} = 1{0[1]}'.format(si_suffixes))
+
 wordlist = ["red", "green", "blue"]
 wordlist2 = list(wordlist)
 

@@ -18,4 +18,4 @@ for names,address in ab.items():
     
 print('each item in dictoray is:')
 for names in ab.items():
-    print(names)
+    print(names[0], names[1])
