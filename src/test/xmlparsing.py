@@ -26,5 +26,5 @@ def tests(xmlfile):
     #         print('\t', key, '=', childattrib[key])
     #===========================================================================
             
-xmlfile='C:\Temp\Rocker-V2016.gtm'
+xmlfile='C:/temp/True_Implicit_Objects/4cyl/SI_4cyl_Basic.gtm'
 tests(xmlfile)
