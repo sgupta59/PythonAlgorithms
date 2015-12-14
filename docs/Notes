@@ -1,0 +1,19 @@
+1. classes in python... class Customer(object): etc.
+2. static variables in python: Customer.count
+
+3. Static method in a Class
+
+    @staticmethod
+    def static_method():
+        <dosomethign>
+        
+4. List: Python lists are represented as
+    myList = ['a', 'b', 'c'] ---> A list of strings
+    myList = [1, 2, 3]       ---> A list of integers
+5. To Print a list (can not convert a list to a string implicitly)
+    str(myStringList)
+6. Slicing a list:
+   a[1:5]  ---> get elements 1, 2, 3, 4 from list
+   a[:]    ---> copy the whole list
+   a[2:]   ---> copy from 2nd item till the end
+   

@@ -1,0 +1,6 @@
+1. Creating Packages
+   a. Create a directory
+   b. create a __init__.py file
+   c. create classes in this directory that are modules
+   d. in the __init__.py file, add "from <module> import <class/function> [e.g. look into package Animals]
+   e. make sure the packege is in python path.
